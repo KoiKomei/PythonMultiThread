@@ -1,6 +1,5 @@
-import random, time
-from threading import Thread, Lock
-from sys import version
+import random
+from threading import Lock
 
 
 class Striscia:
@@ -43,7 +42,7 @@ class Striscia:
                 self.striscia[self.cat] = '@'
                 return True
 
-            self.striscia[self.cat] ='*'
+            self.striscia[self.cat] = '*'
             return False
         finally:
             self.lock.release()

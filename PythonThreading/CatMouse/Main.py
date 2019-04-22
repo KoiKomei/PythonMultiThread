@@ -2,7 +2,7 @@ from CatMouse.CustomString import Striscia
 from CatMouse.Mouse import Mouse
 from CatMouse.Cat import Cat
 from CatMouse.Display import Display
-import time
+
 print("Start of the game")
 
 striscia = Striscia()

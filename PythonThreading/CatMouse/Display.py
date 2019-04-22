@@ -13,4 +13,4 @@ class Display(Thread):
         print("First run Display")
         while not self.striscia.printStriscia():
             time.sleep(0.020)
-        print("Addio topo")
+        print("Goodbye Jerry")
